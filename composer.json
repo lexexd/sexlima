@@ -1,0 +1,12 @@
+{
+    "name": "lexcorp/sexlima",
+    "description": "Complacer a todos",
+    "authors": [
+        {
+            "name": "Ender Duran",
+            "email": "enderduran65@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
