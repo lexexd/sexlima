@@ -1,22 +1,44 @@
-.carousel-item {
-  height: 65vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.protege {
+    width:100px; /* Ancho de la imagen */
+    height:50px;  /* Altura de la imagen */
+    background-image: url(ruta_y_nombre/de_la_imagen.gif);
 }
 
-.card-columns .card {
-  display: inline-block;
-  width: 100%;
-}
-
-.card-img-top {
-  width: 100%;
-  height: 200px !important; 
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
-}
-
+div.galeria {
+    border: 1px solid #ccc;
+    }
+    div.galeria:hover {
+    border: 1px solid #777;
+    }
+    div.galeria img {
+    width: 100%;
+    height: auto;
+    }
+    div.desc {
+    padding: 15px;
+    text-align: center;
+    }
+    * {
+    box-sizing: border-box;
+    }
+    .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    }
+    @media only screen and (max-width: 700px) {
+    .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+    }
+    }
+    @media only screen and (max-width: 500px) {
+    .responsive {
+    width: 100%;
+    }
+    }
+    .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    }

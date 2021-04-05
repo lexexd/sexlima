@@ -30,12 +30,27 @@ align-items: center;
 .top-nav-collapse{
     background: #ff4d25a8;
 }
+
+.fondoTarjeta{
+    background-color:#fb6c6c65
+}
+
+.texTarjeta{
+    color: black;
+    align-items: center;
+}
 .galeria{
-    width:400px;
+    width:371px;
     height: 300px;
     justify-content:center;
     align-items: center;
-  padding-top: 20px;
-  padding: 20px;
+  padding: 5px;
+  align-content: space-between;
+  align-content: stretch;
   margin-right: 100px;
+  border-radius: 100px;
+  }
+
+  .cardP{
+      padding: 5px;
   }
