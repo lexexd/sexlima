@@ -54,3 +54,16 @@ align-items: center;
   .cardP{
       padding: 5px;
   }
+
+
+  .carouseimg{
+    width:400pxpx;
+    height: 600px;
+    justify-content:center;
+    align-items: center;
+  padding: 5px;
+  align-content: space-between;
+  align-content: stretch;
+  margin-right: 100px;
+  border-radius: 100px;
+  }
