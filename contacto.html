@@ -48,28 +48,23 @@
 
 <!--Formulario -->
 <div class="contenedor">
-  <form action="" class="form">
-    <div class="form-header">
+  <form action="contact.php" class="form">
+    <div class="form-header elem-group">
     <h1 class="form-title" style="color: #F06345;" >C<span style="color: #F06345;">ontacto</span></h1>
     </div>
 
-    <label for="nombre" class="form-label">Nombre:</label>
-    <input type="text" id="nombre" class="form-input" placeholder="Escribe tu nombre">
+    <label for="nombre" class="form-label" method="post" >Nombre:</label>
+    <input name="name" type="text" id="nombre" class="form-input" placeholder="Escribe tu nombre">
 
-    <label for="direccion" class="form-label">Direccion</label>
-    <input type="text" id="direccion" class="form-input" placeholder="Escribe tu direccion">
+    <label for="email" class="form-label"method="post" >Correo electronico:</label>
+    <input name="email" type="email" id="correo" class="form-input" placeholder="Escribe tu correo">
 
-    <label for="correo" class="form-label">Correo electronico:</label>
-    <input type="email" id="correo" class="form-input" placeholder="Escribe tu correo">
-
-    <label for="correo" class="form-label">Telefono:</label>
-    <input type="tel" id="Tel" class="form-input" placeholder="Escribe tu telefono">
-
-    <label for="mesaje" class="form-label">Mensaje:</label>
-    <textarea type="mesaje" id="mesaje" class="form-texarea" placeholder="Escribe Tu mensaje">
+    <label for="mensaje" class="form-label"method="post" >Mensaje:</label>
+    <textarea name="message" type="mesaje" id="mesaje" class="form-texarea" placeholder="Escribe Tu mensaje">
     </textarea>
 
-    <input type="submit" class="btn-submit form-label" style="align-items: center;" value="Enviar Consulta">
+    <input  type="submit" name="submit" value="Enviar" method="post" 
+    class="btn-submit form-label" style="align-items: center;" >
   </form>
 </div>
 <!--Formulario -->
