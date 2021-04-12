@@ -157,3 +157,19 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 
 
 
+.footerF {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    background:#999;
+ }
+
+
+.botonesContacto{
+display:flex;
+height: 100px;
+justify-content:center;
+align-items: center;
+}
